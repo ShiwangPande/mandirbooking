@@ -1,0 +1,405 @@
+.temple {
+  background: url("./temple.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 86vh;
+  background-size: contain;
+
+  background-color: linear-gradient(to top, rgb(202, 138, 4), rgb(220, 38, 38));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: philosopher, Sans-serif;
+}
+.about {
+  /* width: 42rem; */
+  display: flex;
+  flex-direction: row;
+  /* height: 18rem; */
+  /* margin: 50px auto; */
+  background: linear-gradient(to top, rgb(202, 138, 4), rgb(220, 38, 38));
+  color: white;
+  padding: 20px;
+}
+
+.om {
+  width: 100%;
+  height: 59%;
+  position: absolute;
+  top: 25%;
+
+  /* infinite animation */
+  animation: all 8s ease-in-out infinite;
+}
+
+.black {
+  background-color: black;
+  height: 86vh;
+  width: 100vw;
+  opacity: 0.5;
+  position: absolute;
+  /* z-index: 1000; */
+}
+
+.puja_img {
+  background: url("./kal-sarp-yog.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.mangal {
+  background: url("./mangal.jpeg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.navgrah {
+  background: url("./navgrah.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.rudrabhisekh {
+  background: url("./rudrabhisekh.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.chandak {
+  background: url("./chandak.jpeg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.mahamritunjya {
+  background: url("./mahamritunjya.jpeg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.pitra {
+  background: url("./img/pitra.jpeg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.mahakal {
+  background: url("./img/mahakal.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.kumbh {
+  background: url("./img/kubh.jpeg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.navgrah {
+  background: url("./navgrah.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.pareshwar {
+  background: url("./img/abhishekh.webp") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.vishesh {
+  background: url("./img/vishesh.webp") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.nagbali {
+  background: url("./img/nagbali.webp") no-repeat center center;
+  background-size: cover;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 35px auto;
+}
+.count {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  margin: 10px;
+  width: fit-content;
+
+  text-align: center;
+}
+.count_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  bottom: -30px;
+}
+.frame {
+  width: 90%;
+  /* margin: auto 5px; */
+  text-align: center;
+}
+button {
+  /* margin: 20px; */
+  font-weight: bold;
+}
+.img_manishji {
+  width: 350px;
+  padding-top: 20px;
+  background: url("./img/manish.png") no-repeat center center;
+  background-size: cover;
+  /* border-radius: 50% !important; */
+  width: 500px;
+  height: 340px;
+  margin: auto;
+}
+.aboutt {
+  /* background: linear-gradient(to top, rgb(202, 138, 4), rgb(220, 38, 38)); */
+  color: black;
+}
+.about_us {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  border: 3px solid black;
+}
+.card {
+  height: 34rem;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.card_group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  /* align-items: center; */
+  margin: 80px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* 7 */
+.btn-7 {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 151, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover {
+  color: rgba(251, 75, 2, 1);
+  background: transparent;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
+
+.shivling {
+  width: 300px;
+  margin: 25px auto;
+}
+
+.card {
+  background: linear-gradient(
+    rgb(153, 27, 27),
+    rgb(202, 138, 4),
+    rgb(234, 179, 8)
+  );
+  color: white;
+}
+.card-title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 16px;
+  text-align: justify;
+  margin: 18px;
+}
+
+@keyframes all {
+  0% {
+    opacity: 0;
+  }
+  /* 25% {
+    opacity: 0.25;
+  } */
+  50% {
+    opacity: 1;
+  }
+  /* 75% {
+    opacity: 0.25;
+  } */
+  100% {
+    opacity: 0;
+  }
+}
+@media (max-width: 480px) {
+  .om {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    margin: auto;
+    left: 25%;
+  }
+  .card_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    /* align-items: center; */
+    margin: 20px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    /* height: 37rem; */
+    margin: 20px auto;
+  }
+  .shivling {
+    width: 300px;
+    margin: 25px auto;
+  }
+  .about_us {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .img_manishji {
+    width: 200px;
+    margin: auto;
+    background: url("./img/manish.png") no-repeat center center;
+    background-size: cover;
+    border-radius: 50% !important;
+
+    width: 176px;
+    height: 201px;
+
+    margin: 35px auto;
+  }
+  .offcanvass {
+    background-image: linear-gradient(
+      90deg,
+      hsl(10deg 100% 38%) 0%,
+      hsl(15deg 100% 39%) 11%,
+      hsl(19deg 100% 41%) 22%,
+      hsl(21deg 100% 42%) 33%,
+      hsl(23deg 100% 44%) 44%,
+      hsl(25deg 100% 45%) 56%,
+      hsl(26deg 100% 46%) 67%,
+      hsl(27deg 100% 48%) 78%,
+      hsl(28deg 100% 49%) 89%,
+      hsl(29deg 100% 50%) 100%
+    );
+  }
+}
